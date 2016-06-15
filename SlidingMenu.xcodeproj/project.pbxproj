@@ -13,6 +13,11 @@
 		F20651D51CFEAAA1000726E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F20651D31CFEAAA1000726E7 /* Main.storyboard */; };
 		F20651D71CFEAAA1000726E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F20651D61CFEAAA1000726E7 /* Assets.xcassets */; };
 		F20651DA1CFEAAA1000726E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F20651D81CFEAAA1000726E7 /* LaunchScreen.storyboard */; };
+		F20651E31CFEAACB000726E7 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F20651E21CFEAACB000726E7 /* SWRevealViewController.m */; };
+		F20651E61CFEAF02000726E7 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = F20651E41CFEAF02000726E7 /* menu.png */; };
+		F20651E71CFEAF02000726E7 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F20651E51CFEAF02000726E7 /* menu@2x.png */; };
+		F2BBA7DF1CFEC02C008792DD /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BBA7DE1CFEC02C008792DD /* MenuViewController.m */; };
+		F2BBA7E11CFEC552008792DD /* splash_new.png in Resources */ = {isa = PBXBuildFile; fileRef = F2BBA7E01CFEC552008792DD /* splash_new.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,13 @@
 		F20651D61CFEAAA1000726E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F20651D91CFEAAA1000726E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F20651DB1CFEAAA1000726E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F20651E11CFEAACB000726E7 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		F20651E21CFEAACB000726E7 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		F20651E41CFEAF02000726E7 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		F20651E51CFEAF02000726E7 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
+		F2BBA7DD1CFEC02C008792DD /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		F2BBA7DE1CFEC02C008792DD /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		F2BBA7E01CFEC552008792DD /* splash_new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_new.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +70,17 @@
 		F20651C91CFEAAA1000726E7 /* SlidingMenu */ = {
 			isa = PBXGroup;
 			children = (
+				F20651E41CFEAF02000726E7 /* menu.png */,
+				F20651E51CFEAF02000726E7 /* menu@2x.png */,
+				F2BBA7E01CFEC552008792DD /* splash_new.png */,
+				F20651E11CFEAACB000726E7 /* SWRevealViewController.h */,
+				F20651E21CFEAACB000726E7 /* SWRevealViewController.m */,
 				F20651CD1CFEAAA1000726E7 /* AppDelegate.h */,
 				F20651CE1CFEAAA1000726E7 /* AppDelegate.m */,
 				F20651D01CFEAAA1000726E7 /* ViewController.h */,
 				F20651D11CFEAAA1000726E7 /* ViewController.m */,
+				F2BBA7DD1CFEC02C008792DD /* MenuViewController.h */,
+				F2BBA7DE1CFEC02C008792DD /* MenuViewController.m */,
 				F20651D31CFEAAA1000726E7 /* Main.storyboard */,
 				F20651D61CFEAAA1000726E7 /* Assets.xcassets */,
 				F20651D81CFEAAA1000726E7 /* LaunchScreen.storyboard */,
@@ -136,7 +155,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F20651E61CFEAF02000726E7 /* menu.png in Resources */,
+				F2BBA7E11CFEC552008792DD /* splash_new.png in Resources */,
 				F20651DA1CFEAAA1000726E7 /* LaunchScreen.storyboard in Resources */,
+				F20651E71CFEAF02000726E7 /* menu@2x.png in Resources */,
 				F20651D71CFEAAA1000726E7 /* Assets.xcassets in Resources */,
 				F20651D51CFEAAA1000726E7 /* Main.storyboard in Resources */,
 			);
@@ -152,6 +174,8 @@
 				F20651D21CFEAAA1000726E7 /* ViewController.m in Sources */,
 				F20651CF1CFEAAA1000726E7 /* AppDelegate.m in Sources */,
 				F20651CC1CFEAAA1000726E7 /* main.m in Sources */,
+				F20651E31CFEAACB000726E7 /* SWRevealViewController.m in Sources */,
+				F2BBA7DF1CFEC02C008792DD /* MenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +324,7 @@
 				F20651E01CFEAAA1000726E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
